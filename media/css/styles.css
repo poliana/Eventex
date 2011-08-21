@@ -62,12 +62,12 @@ body #content p{
 	margin-top:20px;
 }
 
-body #content #contact{
+body #content #contact p{
 	font-family: "Arial";
 	font-size:14px;
 	width:750px;
 	margin-left:150px;
-	margin-top:20px;
+	margin-top:50px;
 }
 
 body #footnote{
