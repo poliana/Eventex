@@ -47,14 +47,22 @@ body #content{
 }
 
 body #content h1{
-	float: left;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
     width: 750px;
-	margin-bottom:10px;
-	margin-top:10px;
-	margin-left:150px;
 }
 
 body #content p{
+	font-family: "Arial";
+	font-size:14px;
+	width:750px;
+	margin-left:150px;
+	margin-top:20px;
+}
+
+body #content #contact{
 	font-family: "Arial";
 	font-size:14px;
 	width:750px;
