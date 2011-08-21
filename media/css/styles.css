@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	background: none;
+	border: none;
+	font-family:arial, tahoma, sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	min-width:736px;
+}
+
+body #header{
+    background-image: url("../img/bg_headermenu.png");
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 195px;
+	float:left;	
+}
+
+
+body #wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+
+body #header h1 a{
+    background: url("../img/bluelogo.png") no-repeat scroll center bottom transparent;
+    float: left;
+    height: 110px;
+    text-indent: -9999px;
+    width: 219px;
+	margin-left:5px;
+	margin-top:40px;
+}
+
+body #content{
+	background-image: url("../img/background.png");
+	width: 464px;
+	height: 464px;
+	float:left;	
+	font-family: "MyriadRomanRegular";
+	font-size:18px;
+	margin:10px;
+	padding-top:20px;
+	text-align:center;
+}
+
+
+body #content p{
+	float:left;
+	font-family: "Arial";
+	font-size:12px;
+	width:285px;
+	height:60px;
+	margin-bottom:10px;
+	margin-top:17px;
+}
+
+body #footnote{
+	background-image: url("../img/bg_footnote.png");
+	background-repeat: repeat-x;
+	width: 100%;
+	height:125px;
+	float:right;
+	padding-left:25px;
+}
+
+
+body .notewrapper{
+	width: 776px;
+	margin: 0 auto;
+}
+
+body #footnote #redes{
+    background-image: url("../img/graybar.png");
+	height: 20px;
+	float:left;
+}
+	
+hr {
+	display:none;
+}
+
+div.clear {
+	clear:both;
+}
+
+
