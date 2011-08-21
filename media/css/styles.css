@@ -14,12 +14,6 @@ body{
 	min-width:736px;
 }
 
-body .wrapper{
-    height: 152px;
-    margin: 40px auto 0;
-    width: 780px;
-}
-
 body #header{
     background-image: url("../img/bg_headermenu.png");
 	background-repeat: repeat-x;
@@ -37,30 +31,27 @@ body #header h1 a{
 	margin-top:40px;
 }
 
-body .wrapper #content{
+body #content{
 	background-color:#f4f4f4;
 	width: 100%;
 	height: 350px;
 	font-size:18px;
-	margin:10px;
-	padding-top:20px;
 }
 
-body .wrapper #content h1{
+body #content h1{
 	float: left;
-    height: 110px;
     width: 219px;
-	margin-left:5px;
-	margin-top:40px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:150px;
 }
 
-body .wrapper #content p{
+body #content p{
 	font-family: "Arial";
 	font-size:14px;
-	line-height:2px;
-	padding:0px;
-	width:285px;
-	height:60px;
+	width:750px;
+	margin-left:150px;
+	margin-top:20px;
 }
 
 body #footnote{

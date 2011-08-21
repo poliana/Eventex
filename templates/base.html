@@ -14,26 +14,23 @@
 	
   		<div id="header">
 	
-        	<div class="wrapper">
-	
-				<img src="{{ MEDIA_URL }}img/logo.png" alt="EventeX" />	
-				
-				<h1><a href="index.html"> EventeX </a></h1>	
-				
-				<div class="clear"></div>
-				
-				<div id="content">
-	
-					{% block content %}
-            		{% endblock content %}
-
-        		</div>
-
+			<img src="{{ MEDIA_URL }}img/logo.png" alt="EventeX" />	
+			
+			<h1><a href="index.html"> EventeX </a></h1>	
+			
+			<div class="clear"></div>
+			
 		</div>
+	
+		<div id="content">
+	
+			{% block content %}
+           	{% endblock content %}
+
+        </div>
 	
         <div id="footnote">
                 
-
         </div>
 
  </body>
