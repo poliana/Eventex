@@ -29,7 +29,6 @@ body #wrapper{
 }
 
 body #header h1 a{
-    background: url("../img/bluelogo.png") no-repeat scroll center bottom transparent;
     float: left;
     height: 110px;
     text-indent: -9999px;
@@ -40,21 +39,30 @@ body #header h1 a{
 
 body #content{
 	background-image: url("../img/background.png");
-	width: 464px;
+	width: 100%;
 	height: 464px;
 	float:left;	
-	font-family: "MyriadRomanRegular";
+	font-family: "Arial";
 	font-size:18px;
 	margin:10px;
 	padding-top:20px;
 	text-align:center;
 }
 
+body #content h1{
+	float: left;
+	font-family: "Arial";
+	font-size:18px;
+    height: 110px;
+    width: 219px;
+	margin-left:5px;
+	margin-top:40px;
+}
 
 body #content p{
 	float:left;
 	font-family: "Arial";
-	font-size:12px;
+	font-size:14px;
 	width:285px;
 	height:60px;
 	margin-bottom:10px;
