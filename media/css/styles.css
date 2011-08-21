@@ -24,7 +24,7 @@ body #header{
 
 
 body #wrapper{
-	width: 500px;
+	width: 780px;
 	margin: 0 auto;
 }
 
@@ -37,57 +37,36 @@ body #header h1 a{
 	margin-top:40px;
 }
 
-body #content{
+body #wrapper #content{
 	background-image: url("../img/background.png");
 	width: 100%;
-	height: 464px;
-	float:left;	
-	font-family: "Arial";
+	height: 350px;
 	font-size:18px;
 	margin:10px;
 	padding-top:20px;
-	text-align:center;
 }
 
-body #content h1{
+body #wrapper #content h1{
 	float: left;
-	font-family: "Arial";
-	font-size:18px;
     height: 110px;
     width: 219px;
 	margin-left:5px;
 	margin-top:40px;
 }
 
-body #content p{
-	float:left;
+body #wrapper #content p{
 	font-family: "Arial";
 	font-size:14px;
+	line-height:2px;
+	padding:0px;
 	width:285px;
 	height:60px;
-	margin-bottom:10px;
-	margin-top:17px;
 }
 
 body #footnote{
-	background-image: url("../img/bg_footnote.png");
-	background-repeat: repeat-x;
+	background-image: url("../img/graybar.png");
 	width: 100%;
-	height:125px;
-	float:right;
-	padding-left:25px;
-}
-
-
-body .notewrapper{
-	width: 776px;
 	margin: 0 auto;
-}
-
-body #footnote #redes{
-    background-image: url("../img/graybar.png");
-	height: 20px;
-	float:left;
 }
 	
 hr {
