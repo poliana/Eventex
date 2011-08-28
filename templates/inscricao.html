@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+		<link type="text/css" href="{{ MEDIA_URL }}css/styles.css" rel="stylesheet" media="screen" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv='content-Language' content='en-US' />
+  	
+		<title>EventeX</title>	
+</head>
+
+<body>
+	
+  		<div id="page">
+	
+			<div id="header">
+	
+				<center>
+	
+					<img src="{{ MEDIA\_URL }}img/logo.png" alt="EventeX" />	
+			
+				</center>
+			
+			</div>	
+		
+			<hr>
+		
+			<div id="content">
+			
+				{% block content %}
+				{% endblock content %}
+			
+			</div>
+	
+			<hr>
+
+        	<div id="footnote">
+                
+        	</div>
+
+		</div>
+
+ </body>
+
+</html>

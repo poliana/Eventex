@@ -39,7 +39,7 @@ body #header .logo {
 }
 
 body #content{
-    background-color: #F4F4F4;
+    background-color: #D7E2EF;
     font-size: 18px;
     height: 350px;
     margin-top: -20px;
@@ -60,6 +60,23 @@ body #content p{
 	width:750px;
 	margin-left:150px;
 	margin-top:20px;
+}
+
+body #content form input[type="submit"] {
+    background-color: #4476AA;
+    font-size: 14px;
+    height: 32px;
+    margin-left: 386px;
+    margin-top: 15px;
+    width: 150px;
+}
+
+body #content form input[type="text"] {
+    background-color: #FFFFFF;
+    border-color: #4476AA;
+    border-style: groove;
+    height: 20px;
+    width: 300px;
 }
 
 body #content #contact p{
